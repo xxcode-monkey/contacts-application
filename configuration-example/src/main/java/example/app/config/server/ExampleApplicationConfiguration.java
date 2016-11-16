@@ -81,7 +81,6 @@ public class ExampleApplicationConfiguration {
 		exampleRegionAttributes.setInitialCapacity(101);
 		exampleRegionAttributes.setKeyConstraint(String.class);
 		exampleRegionAttributes.setLoadFactor(0.75f);
-		exampleRegionAttributes.setOffHeap(false);
 		exampleRegionAttributes.setStatisticsEnabled(true);
 		exampleRegionAttributes.setValueConstraint(Object.class);
 
