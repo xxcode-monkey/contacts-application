@@ -10,6 +10,7 @@
 		<artifactId>contacts-application</artifactId>
 		<version>1.0.0.RELEASE</version>
 	</parent>
+
 	<artifactId>repository-example</artifactId>
 	<packaging>jar</packaging>
 
@@ -84,7 +85,7 @@
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.data</groupId>
-			<artifactId>spring-data-geode</artifactId>
+			<artifactId>spring-data-gemfire</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.shell</groupId>
